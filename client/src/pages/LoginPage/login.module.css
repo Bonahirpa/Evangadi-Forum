@@ -1,0 +1,82 @@
+.contentWrapper {
+  background-image: url("../../assets/images/bg-svg-f.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.loginContainer {
+  z-index: 1;
+}
+
+.formWrapper {
+  background-color: white;
+  padding: 45px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  width: 100%;
+  max-width: 500px;
+}
+
+.inputField {
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.submitButton {
+  background-color: #ff8204;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  width: 150px !important;
+}
+
+.submitButton:hover {
+  background-color: #cc8400;
+}
+
+.createAccountLink {
+  color: #da8954;
+  font-weight: bold;
+  /* text-decoration: none; */
+}
+
+.label {
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+  color: #666;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: grey;
+}
+
+.emailError,
+.passwordError {
+  outline: 2px solid red;
+}
+
+.eyeIcon {
+  position: absolute;
+  right: 10px;
+  top: 30%;
+
+  cursor: pointer;
+  color: #999;
+  font-size: 1.2rem;
+}
+
+.eyeIcon:hover {
+  color: #666;
+}

@@ -1,0 +1,37 @@
+.aboutWrapper {
+  background-color: #f5f5f5;
+  border-bottom-right-radius: 30%;
+  padding: 24px;
+  padding-top: 180px;
+  padding-bottom: 200px;
+}
+
+.about {
+  color: #da8954;
+}
+
+.aboutTitle {
+  font-size: 1.5rem;
+  color: #2f2f2f;
+  font-weight: bold;
+}
+
+.aboutText {
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.8;
+  width: 624px;
+  padding-right: 150px;
+}
+
+.howItWorksButton {
+  background-color: #ff8204;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+}
+
+.howItWorksButton:hover {
+  background-color: #cc8400;
+}
